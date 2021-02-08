@@ -1,0 +1,98 @@
+[17-Dec-2020 23:25:44 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/oxcakma1/demo/mason/PDODb.php:672
+Stack trace:
+#0 /home/oxcakma1/demo/mason/PDODb.php(672): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/oxcakma1/demo/mason/PDODb.php(1270): PDODb->connect()
+#2 /home/oxcakma1/demo/mason/PDODb.php(1287): PDODb->pdo()
+#3 /home/oxcakma1/demo/mason/PDODb.php(593): PDODb->prepare()
+#4 /home/oxcakma1/demo/mason/PDODb.php(965): PDODb->buildQuery(1)
+#5 /home/oxcakma1/demo/mason/PDODb.php(996): PDODb->get('setting', 1, '*')
+#6 /home/oxcakma1/demo/mason/config.php(39): PDODb->getOne('setting')
+#7 /home/oxcakma1/demo/mason/index.php(2): require_once('/home/oxcakma1/...')
+#8 {main}
+  thrown in /home/oxcakma1/demo/mason/PDODb.php on line 672
+[17-Dec-2020 23:26:09 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[18-Dec-2020 09:39:24 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[18-Dec-2020 16:59:53 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[18-Dec-2020 16:59:58 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[18-Dec-2020 20:34:01 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[18-Dec-2020 21:39:42 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[23-Dec-2020 11:41:59 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[24-Dec-2020 16:09:17 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[31-Dec-2020 21:05:15 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[31-Dec-2020 21:05:44 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[01-Jan-2021 21:02:38 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[01-Jan-2021 21:02:42 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[01-Jan-2021 22:30:05 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[02-Jan-2021 10:48:57 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[02-Jan-2021 15:34:09 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[06-Jan-2021 15:53:42 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[06-Jan-2021 16:48:09 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[06-Jan-2021 17:23:45 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[06-Jan-2021 18:41:20 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[06-Jan-2021 18:41:31 Europe/Istanbul] PHP Warning:  Use of undefined constant USER_USERNAME - assumed 'USER_USERNAME' (this will throw an Error in a future version of PHP) in /home/oxcakma1/demo/mason/panel-inc-sidebar.php on line 77
+[14-Jan-2021 06:08:39 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[14-Jan-2021 06:08:39 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[14-Jan-2021 06:08:39 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[14-Jan-2021 06:13:28 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[14-Jan-2021 06:13:28 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[14-Jan-2021 06:13:28 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[14-Jan-2021 06:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[14-Jan-2021 06:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[14-Jan-2021 06:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[14-Jan-2021 18:39:44 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[14-Jan-2021 18:39:44 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[14-Jan-2021 18:39:44 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[17-Jan-2021 22:18:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[17-Jan-2021 22:18:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[17-Jan-2021 22:18:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[21-Jan-2021 18:01:48 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[21-Jan-2021 18:01:48 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[21-Jan-2021 18:01:48 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[21-Jan-2021 18:01:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[21-Jan-2021 18:01:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[21-Jan-2021 18:01:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[21-Jan-2021 18:01:58 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[21-Jan-2021 18:01:58 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[21-Jan-2021 18:01:58 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[24-Jan-2021 18:32:10 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[24-Jan-2021 18:32:10 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[24-Jan-2021 18:32:10 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[25-Jan-2021 13:03:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[25-Jan-2021 13:03:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[25-Jan-2021 13:03:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[26-Jan-2021 18:15:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[26-Jan-2021 18:15:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[26-Jan-2021 18:15:27 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 09:48:55 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 09:48:55 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 09:48:55 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 09:49:00 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 09:49:00 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 09:49:00 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 09:49:05 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 09:49:05 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 09:49:05 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 09:50:50 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 09:50:50 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 09:50:50 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 10:17:49 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 10:17:49 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 10:17:49 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[27-Jan-2021 10:18:33 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[27-Jan-2021 10:18:33 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[27-Jan-2021 10:18:33 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[28-Jan-2021 14:41:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[28-Jan-2021 14:41:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[28-Jan-2021 14:41:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[31-Jan-2021 18:48:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[31-Jan-2021 18:48:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[31-Jan-2021 18:48:35 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[04-Feb-2021 00:04:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[04-Feb-2021 00:04:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[04-Feb-2021 00:04:54 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[08-Feb-2021 13:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[08-Feb-2021 13:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[08-Feb-2021 13:13:30 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153
+[08-Feb-2021 17:37:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 139
+[08-Feb-2021 17:37:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 146
+[08-Feb-2021 17:37:46 Europe/Istanbul] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/oxcakma1/demo/mason/function.oxcakmak.lib.php on line 153

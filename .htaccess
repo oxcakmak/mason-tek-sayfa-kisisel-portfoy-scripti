@@ -1,0 +1,20 @@
+RewriteEngine On
+Options -Indexes
+RewriteRule ^home$ index.php [L, NC, QSA]
+RewriteRule ^panel$ panel.php [L, NC, QSA]
+RewriteRule ^panel/login$ panel-login.php [L, NC, QSA]
+RewriteRule ^panel/logout$ panel-logout.php [L, NC, QSA]
+RewriteRule ^panel/service$ panel-service.php [L, NC, QSA]
+RewriteRule ^panel/portfolio$ panel-portfolio.php [L, NC, QSA]
+RewriteRule ^panel/skill$ panel-skill.php [L, NC, QSA]
+RewriteRule ^panel/counter$ panel-counter.php [L, NC, QSA]
+RewriteRule ^panel/brand$ panel-brand.php [L, NC, QSA]
+RewriteRule ^panel/testimonial$ panel-testimonial.php [L, NC, QSA]
+RewriteRule ^panel/contact$ panel-contact.php [L, NC, QSA]
+RewriteRule ^panel/social$ panel-social.php [L, NC, QSA]
+RewriteRule ^panel/user$ panel-user.php [L, NC, QSA]
+RewriteRule ^panel/setting$ panel-setting.php [L, NC, QSA]
+RewriteRule ^panel/banner$ panel-banner.php [L, NC, QSA]
+RewriteRule ^unsubscribe/([a-f0-9-_]+)$ unsubscribe.php?key=$1 [L, NC, QSA]
+RewriteRule ^action$ action.php [L, NC, QSA]
+ErrorDocument 404 /404.php
